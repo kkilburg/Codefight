@@ -1,15 +1,3 @@
-# TODO
-# 1) mod to deal with duplicates; test1 yeilds 3 entries instead of 5
-# 2) modularize this into a graph utility
-# 3) create the analysis function to solve for the codefight 'Strings Rearrangement'
-#   a) easy! look for any dict entries that have the same length as the input - 1
-#   b) then use same logic from SA_perms to test
-
-#####################################################
-# Current state: just creates a vertice:[edges] dict from a set of inputs (that's handy!)
-#####################################################
-
-# just for preso purposes
 import pprint
 
 def stringsRearrangement(i):
